@@ -2,12 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <title>Portfolio</title>
 </head>
 <body>
-    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <header data-include="header.partial.html"></header>
+    <main>
+        <section data-include="index.top-title.partial.html"></section>
+        <section data-include="index.info-cards.partial.html"></section>
+        <section data-include="index.navigation-arror.partial.html"></section>
+        <section data-include="index.carousel.partial.html"></section>
+        <section data-include="index.form.partial.html"></section>
+    </main>
+    <footer data-include="footer.partial.html"></footer>
 </body>
+<script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 </html>
