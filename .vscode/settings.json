@@ -1,5 +1,3 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "scm.alwaysShowRepositories": false
+    "editor.formatOnSave": true
 }
