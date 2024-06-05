@@ -1,0 +1,16 @@
+.navigation {
+    position: fixed;
+    width: 7vw;
+    bottom: 1vh;
+    margin-left: 90%
+}
+
+.navigation__btn {
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 18px;
+}
+
+.navigation__btn {
+    background-color: var(--main-color) !important;
+}

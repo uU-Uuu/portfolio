@@ -1,11 +1,13 @@
 <section class="footer">
-  <h2 class="footer__title">Magenta</h2>
-  <p class="footer__description">
-    The night has come, when I may sleep,<br />
-    To dream, perchance, of thee.<br />
-    And where art thou? Where south winds sweep<br />
-    Along a southern sea.
-  </p>
+  <div class="footer__flex">
+    <h2 class="footer__title">Magenta</h2>
+    <p class="footer__description">
+      The night has come, when I may sleep,<br />
+      To dream, perchance, of thee.<br />
+      And where art thou? Where south winds sweep<br />
+      Along a southern sea.
+    </p>
+  </div>
 
   <div class="footer__contacts">
     <h2 class="footer__contacts-title">Contacts</h2>
@@ -15,25 +17,27 @@
         action="https://formspree.io/f/xjvnqaed"
         method="post"
       >
-        <input
-          type="text"
-          name="full-name"
-          placeholder="Enter your full name"
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter your email"
-          required
-        />
+        <div class="footer__contracts-form-fl">
+          <input
+            type="text"
+            name="full-name"
+            placeholder="Enter your full name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input type="submit" value="Submit" />
+        </div>
         <textarea
           name="comments"
           cols="30"
           rows="10"
           placeholder="Comment"
         ></textarea>
-        <input type="submit" value="Submit" />
       </form>
     </div>
   </div>
@@ -45,9 +49,9 @@
         src="img/github-mark-white.png"
         alt="Github Logo"
       />
-      <p class="socialmedia__details">
+      <address class="socialmedia__details">
         Github: <a href="https://github.com/uU-Uuu/">uU-Uuu</a>
-      </p>
+      </address>
     </div>
   </div>
 </section>

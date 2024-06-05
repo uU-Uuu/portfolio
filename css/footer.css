@@ -1,0 +1,54 @@
+.footer {
+    margin-top: 5vh;
+    background-color: var(--background-color-dark-full);
+    color: var(--main-text-color);
+}
+
+
+.footer__title {
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.footer__description {
+    font-size: 0.8rem;
+    text-align: end;
+}
+
+.footer__flex {
+    padding: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15vw;
+}
+
+.footer__contacts-title {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+/* .footer__contacts-container {
+    display: flex;
+    flex-direction: row;
+} */
+
+.footer__contacts-form {
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 5vh 20vw;
+    gap: 7vw;
+}
+
+.footer__contracts-form-fl {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

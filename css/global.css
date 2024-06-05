@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  scroll-behavior: smooth;
+  font-family: "Libre Barcode 128 Text", system-ui;
+  font-family: "Source Code Pro", monospace;
+  --background-color-dark: #151341aa;
+  --background-color-dark-full: #151341;
+  --main-text-color: #F3F8FF;
+  --shadow-btn-color: rgba(243, 243, 243, 0.211);
+  --hover-btn-color-shadow: #f3f8ff40;
+  --hover-btn-color: #rgba(243, 248, 255, 0.127);
+  --main-color:  #F3F8FF;
+  --plain-btn-color: #f3f8ff19; 
+  --active-btn-color-shadow: #6549be8a; 
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}

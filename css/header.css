@@ -1,0 +1,75 @@
+.header {
+    background-color: var(--background-color-dark);
+    background-image: url("../img/leyre-71SHXwBLp5w-unsplash.jpg");
+    background-size: cover;
+    color: var(--main-text-color);
+}
+
+.header__title {
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+.header__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 10vw;
+    row-gap: 3em;
+}
+
+.header__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.3em;
+}
+
+
+.header__buttons-view, .header__buttons-contact {
+    padding: 8px 17vw;
+    border-radius: 10px;
+    border: 1px solid var(--main-color); 
+    font-weight: 300;
+    font-size: 1rem;
+    background-color: transparent;
+    color: var(--main-text-color);
+    box-shadow: 0px 0px 6px 4px var(--shadow-btn-color);
+}
+
+button:hover {
+    opacity: 1;
+    background-color: var(--plain-btn-color);
+    box-shadow: 0 0 3px var(--hover-btn-color-shadow), 
+    0 0 10px var(--hover-btn-color-shadow), 
+    0 0 26px var(--hover-btn-color-shadow),
+    0 0 50px var(--hover-btn-color-shadow);
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0 0 3px var(--active-btn-color-shadow), 
+    0 0 10px var(--active-btn-color-shadow), 
+    0 0 26px var(--active-btn-color-shadow),
+    0 0 50px var(--active-btn-color-shadow);
+}
+
+.header__infotop {
+    margin-top: 4vh;
+    background-color: var(--background-color-dark);
+    border-top-color: var(--main-color);
+}
+
+.header__infotop-logo {
+    width: 25vw;
+    margin: auto;
+}
+
+.header__infotop-title {
+    padding: 0 3vw 6vh 3vw;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+}
