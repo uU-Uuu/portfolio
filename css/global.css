@@ -21,7 +21,7 @@
   --hover-btn-color: #rgba(243, 248, 255, 0.127);
   --main-color:  #F3F8FF;
   --plain-btn-color: #f3f8ff19; 
-  --active-btn-color-shadow: #6549be8a; 
+  --active-btn-color-shadow: #1f1a7ba6; 
   --submit-btn-color: #18137b;
 
   background-color: var(--background-color-common);
