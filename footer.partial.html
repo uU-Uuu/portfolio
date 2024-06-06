@@ -1,15 +1,8 @@
-<section class="footer">
+<section class="footer container">
   <div class="footer__flex">
     <h2 class="footer__title">Magenta</h2>
-    <p class="footer__description">
-      The night has come, when I may sleep,<br />
-      To dream, perchance, of thee.<br />
-      And where art thou? Where south winds sweep<br />
-      Along a southern sea.
-    </p>
   </div>
-
-  <div class="footer__contacts">
+  <div class="footer__contacts footer__contacts-backgr">
     <h2 class="footer__contacts-title">Contacts</h2>
     <div class="footer__contacts-container">
       <form
@@ -17,38 +10,28 @@
         action="https://formspree.io/f/xjvnqaed"
         method="post"
       >
-        <div class="footer__contracts-form-fl">
-          <input
-            type="text"
-            name="full-name"
-            placeholder="Enter your full name"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-            required
-          />
-          <input type="submit" value="Submit" />
-        </div>
+        <input type="text" name="full-name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
         <textarea
           name="comments"
           cols="30"
           rows="10"
           placeholder="Comment"
         ></textarea>
+        <input
+          class="footer__contacts-form-submit"
+          type="submit"
+          value="Submit"
+        />
       </form>
     </div>
   </div>
 
   <div class="socialmedia">
     <div class="socialmedia__github">
-      <img
-        style="background-color: black"
-        src="img/github-mark-white.png"
-        alt="Github Logo"
-      />
+      <a href="https://github.com/uU-Uuu/">
+        <img src="img/github-mark-white.png" alt="Github Logo" />
+      </a>
       <address class="socialmedia__details">
         Github: <a href="https://github.com/uU-Uuu/">uU-Uuu</a>
       </address>
