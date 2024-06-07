@@ -1,16 +1,38 @@
 .navigation {
     position: fixed;
-    width: 7vw;
-    bottom: 1vh;
-    margin-left: 90%
+    max-width: 13vw;
+    bottom: 6vh;
+    right: 3vh;
 }
 
 .navigation__btn {
-    background-color: var(--main-color);
+    background-color: var(--nav-btn-color) !important;
+    background-color: transparent;
     border: none;
-    border-radius: 18px;
+    border-radius: 35vw;
 }
 
-.navigation__btn {
-    background-color: var(--main-color) !important;
+
+@media screen and (min-width: 350px) {
+    .navigation {
+        max-width: 9vw;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .navigation {
+        max-width: 60px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .navigation {
+        right: calc((100% - 1100px) / 4)
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .navigation {
+        right: calc((100% - 1100px) / 3)
+    }
 }
