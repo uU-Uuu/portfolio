@@ -1,6 +1,6 @@
 .navigation {
     position: fixed;
-    max-width: 13vw;
+    max-width: 16vw;
     bottom: 6vh;
     right: 3vh;
 }
@@ -10,12 +10,33 @@
     background-color: transparent;
     border: none;
     border-radius: 35vw;
+    display: none;
 }
+
+
+.navigation__btn:hover {
+    opacity: 1;
+    background-color: var(--plain-btn-color);
+    box-shadow: 0 0 2px var(--hover-btn-color-shadow), 
+    0 0 5px var(--hover-btn-color-shadow), 
+    0 0 10px var(--hover-btn-color-shadow),
+    0 0 20px var(--hover-btn-color-shadow);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navigation__btn:active {
+    box-shadow: 0 0 2px var(--active-btn-color-shadow), 
+    0 0 5px var(--active-btn-color-shadow), 
+    0 0 10px var(--active-btn-color-shadow),
+    0 0 20px var(--active-btn-color-shadow);
+}
+
 
 
 @media screen and (min-width: 350px) {
     .navigation {
-        max-width: 9vw;
+        max-width: 13vw;
     }
 }
 

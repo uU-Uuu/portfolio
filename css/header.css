@@ -30,7 +30,7 @@
 }
 
 
-.header__buttons-view, .header__buttons-contact {
+.header__buttons-projects, .header__buttons-contacts {
     padding: 8px 17vw;
     border-radius: 10px;
     border: 1px solid var(--main-color); 
@@ -45,7 +45,7 @@
     justify-content: center;
 }
 
-button:hover {
+.header button:hover {
     opacity: 1;
     background-color: var(--plain-btn-color);
     box-shadow: 0 0 2px var(--hover-btn-color-shadow), 
@@ -56,7 +56,7 @@ button:hover {
     font-weight: 600;
 }
 
-button:active {
+.header button:active {
     box-shadow: 0 0 2px var(--active-btn-color-shadow), 
     0 0 5px var(--active-btn-color-shadow), 
     0 0 10px var(--active-btn-color-shadow),
@@ -93,7 +93,7 @@ button:active {
     .header__infotop-title {
         font-size: 0.8rem;
     }
-    .header__buttons-view, .header__buttons-contact {
+    .header__buttons-projects, .header__buttons-contacts {
         padding: 8px 13vw;
     }
 }
@@ -103,7 +103,7 @@ button:active {
     .header__top {
         row-gap: 2em;
     }
-    .header__buttons-view, .header__buttons-contact {
+    .header__buttons-projects, .header__buttons-contacts {
         padding: 8px 10vw;
     }
     .header__infotop-title {
