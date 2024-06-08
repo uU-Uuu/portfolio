@@ -25,7 +25,13 @@
   --active-btn-color-shadow: #1f1a7ba6; 
   --submit-btn-color: #18137b;
   --nav-btn-color: #f3f8ff40;
+  --tabs-backgr-color: #423bcd6f;
+  --tabs-border-color: #342f8b;
 
+  --tabs-transition-duration: 0.7s;
+}
+
+body {
   background-color: var(--background-color-common);
 }
 
