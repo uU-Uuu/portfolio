@@ -1,0 +1,39 @@
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.projects__project {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin: 4vh 4vh;
+    padding: 4vh 4vh;
+    width: auto;
+    background-color: var(--background-color-dark);
+}
+
+.projects__expand-btn {
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 13px 37px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.projects__project-details {
+    color: var(--main-text-color);
+}
+
+
+@media (min-width: 800px) {
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    }
+}
