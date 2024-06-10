@@ -89,7 +89,7 @@
 
 
 
-@media screen and (min-width: 400px) and (max-width: 699px) {
+@media (min-width: 400px) and (max-width: 699px) {
     .header__infotop-title {
         font-size: 0.8rem;
     }
@@ -99,7 +99,7 @@
 }
 
 
-@media screen and (min-width: 700px) {
+@media(min-width: 700px) {
     .header__top {
         row-gap: 2em;
     }

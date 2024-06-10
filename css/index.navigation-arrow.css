@@ -34,25 +34,25 @@
 
 
 
-@media screen and (min-width: 350px) {
+@media (min-width: 350px) {
     .navigation {
         max-width: 13vw;
     }
 }
 
-@media screen and (min-width: 500px) {
+@media (min-width: 500px) {
     .navigation {
         max-width: 60px;
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media (min-width: 1500px) {
     .navigation {
         right: calc((100% - 1100px) / 4)
     }
 }
 
-@media screen and (min-width: 1800px) {
+@media (min-width: 1800px) {
     .navigation {
         right: calc((100% - 1100px) / 3)
     }
