@@ -5,7 +5,7 @@
     margin: 4vh auto auto;
     height: 13vh;
     border-top: 1px solid var(--tabs-border-color);
-    border-bottom: 1px solid var(--tabs-border-color)
+    /* border-bottom: 1px solid var(--tabs-border-color) */
 }
 
 .tabs__menu {
