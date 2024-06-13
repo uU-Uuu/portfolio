@@ -1,5 +1,5 @@
 function getTagFilter() {
-  return document.querySelector(".menu__item.active").innerHTML;
+  return document.querySelector(".menu__item.active").value;
 };
 
 function renderTagsFromList(arr) {
@@ -49,7 +49,7 @@ document.querySelector(".tabs__menu").addEventListener("click", (event) => {
   if (event.target && event.target.classList.contains("menu__item")) {
     const clickedBtn = event.target;
 
-    if (clickedBtn.innerHTML !== getTagFilter()) {
+    if (clickedBtn.value !== getTagFilter()) {
       document.querySelectorAll(".menu__item").forEach(btn => {
         btn.classList.remove("active");
       });
