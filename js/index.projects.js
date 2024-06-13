@@ -10,7 +10,7 @@ console.log(renderTagsFromList(['web', 'python']))
 
 async function renderProjects() {
 
-  const response = await fetch("api/projects.json");
+  const response = await fetch("./api/projects.json");
   const projects = await response.json();
 
   let tagFilter = getTagFilter();
