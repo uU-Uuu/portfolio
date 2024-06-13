@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Try Project",
+        "img": "./img/hiep-duong-mm6VFRGTqWk-unsplash.jpg",
+        "link": "/",
+        "tags": ["Web"],
+        "description": "This is a project description template"
+    },
+    {
+        "id": 2,
+        "title": "Try Project #2",
+        "img": "./img/hiep-duong-mm6VFRGTqWk-unsplash.jpg",
+        "link": "/",
+        "tags": ["Web", "Python"],
+        "description": "This is a project description template"
+    }
+]
