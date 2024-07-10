@@ -6,7 +6,6 @@ function renderTagsFromList(arr) {
   const arrTag = (arr.map((tag) => "#" + tag));
   return arrTag.join("&nbsp;&nbsp;");
 };
-console.log(renderTagsFromList(['web', 'python']))
 
 async function renderProjects() {
 
@@ -21,7 +20,7 @@ async function renderProjects() {
     if (tagFilter === "All" || project.tags.includes(tagFilter)) {
       projectsDomString += `
         <article class="projects__project">
-          <a href="${project.link}">
+          <a href="${project.link}" target="_blank">
             <img
               class="projects__project-img"
               id="${project.id}"
@@ -33,7 +32,7 @@ async function renderProjects() {
             <button class="projects__project-info-expand-btn">
               <img src="img/down-arrow.png" class="projects__project-info-expand-btn-img">
             </button>
-            <a class="info__title" href="${project.link}">${project.title}</a>
+            <a class="info__title" href="${project.link}" target="_blank">${project.title}</a>
           </div>
           <div class="projects__project-details hidden">
             <p class="projects__project-details-tags">${renderTagsFromList(project.tags)}</p>
@@ -66,20 +65,27 @@ document.querySelector(".tabs__menu").addEventListener("click", (event) => {
 
 
 document.querySelector(".projects").addEventListener("click", (event) => {
+
+  const prj = event.target.closest(".projects__project");
+  
   if (event.target.classList.contains("projects__project-info-expand-btn-img")) {
-    const infoDetailed = event.target.parentElement.parentElement.nextElementSibling;
+    const infoDetailed = prj.querySelector(".projects__project-details");
+
     if (infoDetailed) {
+
       if (infoDetailed.classList.contains("hidden")) {
         infoDetailed.classList.remove("hidden");
-        document.querySelector(".projects__project-info-expand-btn-img").style.transform = "rotate(180deg)";
-        document.querySelector(".info__title").style.fontWeight = 400;
-        document.querySelector(".info__title").style.fontSize = "1.1rem";
+        prj.querySelector(".projects__project-info-expand-btn-img").style.transform = "rotate(180deg)";
+        prj.querySelector(".info__title").style.fontWeight = 400;
+        prj.querySelector(".info__title").style.fontSize = "1.1rem";
+        prj.querySelector(".projects__project-img").classList.toggle("active-prj")
 
       } else {
         infoDetailed.classList.toggle("hidden");
-        document.querySelector(".projects__project-info-expand-btn-img").style.transform = "rotate(0deg)";
-        document.querySelector(".info__title").style.fontWeight = 300;
-        document.querySelector(".info__title").style.fontSize = "1rem";
+        prj.querySelector(".projects__project-info-expand-btn-img").style.transform = "rotate(0deg)";
+        prj.querySelector(".info__title").style.fontWeight = 300;
+        prj.querySelector(".info__title").style.fontSize = "1rem";
+        prj.querySelector(".projects__project-img").classList.remove("active-prj")
       }
     }
   }

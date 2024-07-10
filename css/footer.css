@@ -1,6 +1,7 @@
 .footer {
     margin-top: 4vh;
-    background-image: url("../img/leyre-71SHXwBLp5w-unsplash.jpg");
+    /* background-image: url("../img/leyre-71SHXwBLp5w-unsplash.jpg"); */
+    background-image: url("../img/bridger-tower-b8bKg1o9SI8-unsplash.jpg");
     background-size: cover;
     color: var(--main-text-color);
 }
