@@ -5,7 +5,6 @@
     margin: 4vh auto auto;
     height: 13vh;
     border-top: 1px solid var(--tabs-border-color);
-    /* border-bottom: 1px solid var(--tabs-border-color) */
 }
 
 .tabs__menu {
@@ -37,7 +36,7 @@
 
 
 .menu__item:active {
-    color: var(--tabs-backgr-color);
+    color: var(--tabs-active-color);
 }
 
 .menu__item.active {
