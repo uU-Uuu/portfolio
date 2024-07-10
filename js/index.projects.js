@@ -76,15 +76,13 @@ document.querySelector(".projects").addEventListener("click", (event) => {
       if (infoDetailed.classList.contains("hidden")) {
         infoDetailed.classList.remove("hidden");
         prj.querySelector(".projects__project-info-expand-btn-img").style.transform = "rotate(180deg)";
-        prj.querySelector(".info__title").style.fontWeight = 400;
-        prj.querySelector(".info__title").style.fontSize = "1.1rem";
-        prj.querySelector(".projects__project-img").classList.toggle("active-prj")
+        prj.querySelector(".info__title").classList.toggle("active-prj");
+        prj.querySelector(".projects__project-img").classList.toggle("active-prj");
 
       } else {
         infoDetailed.classList.toggle("hidden");
         prj.querySelector(".projects__project-info-expand-btn-img").style.transform = "rotate(0deg)";
-        prj.querySelector(".info__title").style.fontWeight = 300;
-        prj.querySelector(".info__title").style.fontSize = "1rem";
+        prj.querySelector(".info__title").classList.remove("active-prj");
         prj.querySelector(".projects__project-img").classList.remove("active-prj")
       }
     }
