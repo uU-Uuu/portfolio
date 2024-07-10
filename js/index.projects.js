@@ -30,7 +30,7 @@ async function renderProjects() {
           </a>
           <div class="projects__project-info">
             <button class="projects__project-info-expand-btn">
-              <img src="img/down-arrow.png" class="projects__project-info-expand-btn-img">
+              <img src="img/down-arrow.png" alt="" class="projects__project-info-expand-btn-img">
             </button>
             <a class="info__title" href="${project.link}" target="_blank">${project.title}</a>
           </div>
