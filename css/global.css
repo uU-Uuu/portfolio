@@ -63,3 +63,7 @@ a {
 input::placeholder, textarea::placeholder {
   font-weight: normal;
 }
+
+button, input {
+  font-family: "Source Code Pro", monospace;
+}

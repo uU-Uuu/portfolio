@@ -5,6 +5,6 @@
         "img": "./img/prj/1-audio-analyser.jpg",
         "link": "https://github.com/uU-Uuu/flask-audio-analyser",
         "tags": ["Web", "Python", "API", "Flask", "JS"],
-        "description": "Full-stack web application<br>&#x2022;&nbsp;&nbsp;Backend: Python API with Flask<br>&#x2022;&nbsp;&nbsp;Frontend: JavaScript<br><br>Calculating the fundamental frequency (F0) of an audio file<br>Building a plot and spectrograms for the data<br>Playing the uploaded file and calculated values"
+        "description": "A full-stack web application<br>&#x2022;&nbsp;&nbsp;Backend: Python API with Flask<br>&#x2022;&nbsp;&nbsp;Frontend: JavaScript<br><br>Calculating the fundamental frequency (F0) of an audio file<br>Building a plot and spectrograms for the data<br>Playing the uploaded file and calculated values"
     }
 ]

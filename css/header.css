@@ -1,7 +1,6 @@
 .header {
     background-color: var(--background-color-dark);
-    /* background-image: url("../img/leyre-71SHXwBLp5w-unsplash04.jpg"); */
-    background-image: url("../img/bridger-tower-b8bKg1o9SI8-unsplash.jpg");
+    background-image: url("../img/leyre-71SHXwBLp5w-unsplash03.jpg");
     background-size: cover;
     color: var(--main-text-color);
 }

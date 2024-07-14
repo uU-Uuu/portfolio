@@ -96,7 +96,8 @@
 }
 
 .projects__project-details-description {
-    color: var(--description-text-color)
+    color: var(--description-text-color);
+    font-size: 0.9rem;
 
 }
 
