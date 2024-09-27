@@ -6,5 +6,14 @@
         "link": "https://github.com/uU-Uuu/flask-audio-analyser",
         "tags": ["Web", "Python", "API", "Flask", "JS"],
         "description": "A full-stack web application<br>&#x2022;&nbsp;&nbsp;Backend: Python API with Flask<br>&#x2022;&nbsp;&nbsp;Frontend: JavaScript<br><br>Calculating the fundamental frequency of an audio file<br>Building a plot and spectrograms for the data<br>Playing the uploaded file and calculated values"
+    },
+    {
+        "id": 2,
+        "title": "Song XML Editor",
+        "img": "./img/prj/2-song-xml-editor.jpg",
+        "link": "https://github.com/uU-Uuu/song-xml-editor",
+        "tags": ["Python", "PyQt", "XML", "LilyPond"],
+        "description": "PyQT desktop application<br>&#x2022;&nbsp;&nbsp;create and save song XML documents<br>&#x2022;&nbsp;&nbsp;add structural and melodic elements<br>&#x2022;&nbsp;&nbsp;preview, edit, and delete XML elements in QTreeView<br>&#x2022;&nbsp;&nbsp;check sheet music with XML to LilyPond converter<br><br>A PyQt desktop app for creating and editing<br>XML documents of a predefined structure."
     }
 ]
+
